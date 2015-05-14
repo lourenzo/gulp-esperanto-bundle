@@ -1,0 +1,35 @@
+{
+  "name": "gulp-esperanto-bundle",
+  "version": "0.0.1",
+  "description": "Builds modules in a simple format, similar to oldtimer es6-module-transpiler's bundle (not present in esperanto)",
+  "license": "MIT",
+  "repository": "lourenzo/gulp-esperanto-bundle",
+  "author": {
+    "name": "Lourenzo Ferreira",
+    "email": "lourenzo@gmail.com",
+    "url": "lourenzo.blog.br"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "esperanto",
+    "bundle",
+    "amdclean"
+  ],
+  "dependencies": {
+    "esperanto": "^0.7.0",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
